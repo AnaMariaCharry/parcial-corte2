@@ -1,25 +1,22 @@
-.factura-container {
+.pago-container {
   background-color: #1f1f1f;
   padding: 1rem;
   border-radius: 12px;
   margin-bottom: 1rem;
 }
 
-.factura-input, .factura-select {
+.pago-select {
   padding: 0.5rem;
   border-radius: 8px;
   border: 1px solid #333;
   background-color: #292929;
   color: #fff;
-  margin: 0.3rem;
+  width: 100%;
   font-size: 0.9rem;
+  margin: 0.3rem 0;
 }
 
-.factura-input::placeholder {
-  color: #aaa;
-}
-
-.factura-datos {
+.pago-mensaje {
   margin-top: 0.8rem;
   padding: 0.8rem;
   background-color: #252525;
